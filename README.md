@@ -2,8 +2,8 @@
 ## 1.概要
 引数で指定した画像の左右反転画像を作成するpython3で動作するプログラム
 ## 2.ソースコード
-＃　このプログラムはpython3用です。<br>
-＃　あらかじめ pip install pillowでpillowをインストールしておきます。<br>
+#　このプログラムはpython3用です。<br>
+#　あらかじめ pip install pillowでpillowをインストールしておきます。<br>
 ```python
 from PIL import Image
 import sys
