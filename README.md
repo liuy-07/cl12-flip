@@ -12,6 +12,9 @@ import sys
 input_image=sys.argv[1]
 output_image=sys.argv[2]
 
+＃ 画像の読み込み
+img=Image.open(input_image)
+
 ＃ 画像の左右反転
 img_flip=img.transpose(Image.FLIP_LEFT_RIGHT)
 
@@ -30,7 +33,10 @@ python3 flip.py<input_image_path><output_image_path>
 python3 flip.py input,jpg output.jpg
 ```
 ### 3.2出力結果
-- 以下のように入力画像の左右反転画像が出力されます。
-|入力画像(input.jpg)|出力画像(output.jpg)
+- 以下のように入力画像の左右反転画像が出力されます。<br>
+|入力画像(input.jpg) | 出力画像(output.jpg) |
+|---|---|
+|![元画像]()|![反転画像]()
+
 
 以上
