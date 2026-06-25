@@ -34,9 +34,9 @@ python3 flip.py input,jpg output.jpg
 ```
 ### 3.2出力結果
 - 以下のように入力画像の左右反転画像が出力されます。<br>
-|入力画像(input.jpg) | 出力画像(output.jpg) |
-|---|---|
-|![元画像]()|![反転画像]()
+  |入力画像(input.jpg) | 出力画像(output.jpg) |
+  |:---:|:---:|
+  |![元画像](./input.jpg)|![反転画像](./output.jpg)|
 
 
 以上
