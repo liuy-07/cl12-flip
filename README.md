@@ -1,1 +1,36 @@
-# cl12-flip
+# 左右反転画像 生成プログラムflip.py
+## 1.概要
+引数で指定した画像の左右反転画像を作成するpython3で動作するプログラム
+## 2.ソースコード
+＃　このプログラムはpython3用です。<br>
+＃　あらかじめ pip install pillowでpillowをインストールしておきます。<br>
+```python
+from PIL import Image
+import sys
+
+＃ コマンドライン引数から入力画像と出力画像のファイル名を取得
+input_image=sys.argv[1]
+output_image=sys.argv[2]
+
+＃ 画像の左右反転
+img_flip=img.transpose(Image.FLIP_LEFT_RIGHT)
+
+＃ 画像の保存
+img_flip.save(output_image)
+```
+
+## 3.使い方
+### 3.1実行例
+- コマンドラインフォーマット
+```python
+python3 flip.py<input_image_path><output_image_path>
+```
+- 利用例
+```python
+python3 flip.py input,jpg output.jpg
+```
+### 3.2出力結果
+- 以下のように入力画像の左右反転画像が出力されます。
+|入力画像(input.jpg)|出力画像(output.jpg)
+
+以上
